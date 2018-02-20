@@ -18,15 +18,15 @@
     "module": true,
     "console": true,
 
-    "afterEach": false,
-    "beforeEach": false,
-    "describe": false,
-    "before": false,
-    "expect": false,
-    "after": false,
-    "test": false,
-    "it": false,
-    "window": false
+    "afterEach": true,
+    "beforeEach": true,
+    "describe": true,
+    "before": true,
+    "expect": true,
+    "after": true,
+    "test": true,
+    "it": true,
+    "window": true
 
   }
 }

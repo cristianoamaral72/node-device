@@ -12,7 +12,11 @@ const detector = require('./lib/detector'),
  */
 exports.detect = function(userAgent)
 {
-    userAgent = userAgent || window.navigator.userAgent;
+    if (typeof window !== 'undefined') {
+        userAgent = userAgent || window.navigator.userAgent;
+    } else {
+        userAgent = 'Node.js';
+    }
 
     return detector.detect(userAgent);
 };
