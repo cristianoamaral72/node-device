@@ -1,4 +1,4 @@
-# NPM Skeleton [![npm](http://img.shields.io/npm/v/node-device.svg)](https://www.npmjs.com/package/node-device) ![Downloads](https://img.shields.io/npm/dm/node-device.svg) [![Build Status](https://secure.travis-ci.org/leonardothibes/node-device.png)](http://travis-ci.org/leonardothibes/node-device) [![Package Quality](http://npm.packagequality.com/shield/node-device.svg)](http://packagequality.com/#?package=node-device) [![License](https://img.shields.io/npm/l/node-device.svg)](LICENSE)
+# Device [![npm](http://img.shields.io/npm/v/node-device.svg)](https://www.npmjs.com/package/node-device) ![Downloads](https://img.shields.io/npm/dm/node-device.svg) [![Build Status](https://secure.travis-ci.org/leonardothibes/node-device.png)](http://travis-ci.org/leonardothibes/node-device) [![Package Quality](http://npm.packagequality.com/shield/node-device.svg)](http://packagequality.com/#?package=node-device) [![License](https://img.shields.io/npm/l/node-device.svg)](LICENSE)
 
 Node.js device detector.
 
