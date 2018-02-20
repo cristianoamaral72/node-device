@@ -42,7 +42,7 @@ Contributors
 LICENSE
 =======
 
-Copyright (c) 2017 Leonardo Thibes
+Copyright (c) 2018 Leonardo Thibes
 
 The MIT License
 
