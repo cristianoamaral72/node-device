@@ -228,6 +228,16 @@ const devices = [
     },
     // Opera
 
+    // Node.js
+    {
+        name     : 'node',
+        useragent: 'Node.js',
+        browser  : 'Unknow',
+        device   : 'Node.js',
+        os       : 'Node.js',
+    },
+    // Node.js
+
     // Unknow
     {
         name     : 'unknow',
