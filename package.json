@@ -1,17 +1,17 @@
 {
-  "name": "nome-do-projeto",
-  "version": "1.0.2",
+  "name": "node-device",
+  "version": "0.1.0",
   "description": "Aqui vai uma pequena descrição do projeto",
   "main": "index.js",
-  "homepage": "https://github.com/leonardothibes/nome-do-projeto#readme",
+  "homepage": "https://github.com/leonardothibes/node-device#readme",
   "author": "Leonardo Thibes <leonardothibes@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leonardothibes/nome-do-projeto.git"
+    "url": "git+https://github.com/leonardothibes/node-device.git"
   },
   "bugs": {
-    "url": "https://github.com/leonardothibes/nome-do-projeto/issues"
+    "url": "https://github.com/leonardothibes/node-device/issues"
   },
   "keywords": [
     "skeleton"
