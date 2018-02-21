@@ -10,9 +10,9 @@ describe('Detected', () =>
         const detected = new Detected();
 
         assert.object(detected)
-            .hasProperty('_browser', '')
-            .hasProperty('_device', '')
-            .hasProperty('_os', '');
+            .hasProperty('browser', '')
+            .hasProperty('device' , '')
+            .hasProperty('os'     , '');
 
         done();
     });
