@@ -14,7 +14,7 @@ exports.detect = function(userAgent)
 {
     if (typeof window !== 'undefined') {
         userAgent = userAgent || window.navigator.userAgent;
-    } else {
+    } else if (!userAgent) {
         userAgent = 'Node.js';
     }
 
