@@ -12,13 +12,32 @@ npm install node-device --save
 Examples
 --------
 
-* [Some function](#some-function)
+* [Providing User Agent](#providing-user-agent)
+* [Not Providing User Agent](#not-providing-user-agent)
 
-Some function
--------------
+Providing User Agent
+--------------------
 
 ```js
-// Aqui vão os exemplos de uso.
+const device = require('node-device');
+
+const userAgent = 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; en-US) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27';
+
+device.detect(userAgent); // { browser: 'Safari', device: 'Desktop', os: 'macOS' }
+```
+
+Not Providing User Agent
+------------------------
+
+```js
+const device = require('node-device');
+
+// In Browser
+device.detect(); // { browser: 'Safari', device: 'Desktop', os: 'macOS' }
+
+// In Node.js
+device.detect() // { browser: 'Unknow', device: 'Node.js', os: 'Node.js' }
+
 ```
 
 Test and development
