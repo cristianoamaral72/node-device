@@ -30,12 +30,15 @@ Not Providing User Agent
 ------------------------
 
 ```js
-const device = require('node-device');
 
 // In Browser
-device.detect(); // { browser: 'Safari', device: 'Desktop', os: 'macOS' }
+<script src="dist/node-device.min.js"></script>
+
+window.device.detect(); // { browser: 'Safari', device: 'Desktop', os: 'macOS' }
 
 // In Node.js
+const device = require('node-device');
+
 device.detect() // { browser: 'Unknow', device: 'Node.js', os: 'Node.js' }
 
 ```
